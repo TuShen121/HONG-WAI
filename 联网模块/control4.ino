@@ -11,8 +11,8 @@
 #include <aJSON.h>
 
 //=============  此处必须修该============
-String DEVICEID="8178"; // 你的设备编号   ==
-String  APIKEY = "ccc2a577a"; // 设备密码==
+String DEVICEID="xxxx"; // 你的设备编号   ==
+String  APIKEY = "xxxxx"; // 设备密码==
 //=======================================
 unsigned long lastCheckInTime = 0; //记录上次报到时间
 const unsigned long postingInterval = 40000; // 每隔40秒向服务器报到一次
