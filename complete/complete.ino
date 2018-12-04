@@ -18,8 +18,8 @@ SimpleDHT11 dht11(pinDHT11);
       const uint16_t kIrLed = 4;  // ESP8266 GPIO pin to use. Recommended: 4 (D2).
       IRsend irsend(kIrLed);  // Set the GPIO to be used to sending the message.
 //=============  此处必须修该============
-      String DEVICEID="8281"; // 你的设备编号   ==
-      String  APIKEY = "a20b6f315"; // 设备密码==
+      String DEVICEID="xxxxx"; // 你的设备编号   ==
+      String  APIKEY = "xxxxxxx"; // 设备密码==
 //=======================================
       unsigned long lastCheckInTime = 0; //记录上次报到时间
       const unsigned long postingInterval = 5000; // 每隔5秒向服务器报到一次
